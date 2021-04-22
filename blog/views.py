@@ -1,7 +1,7 @@
-from django.shortcuts import render
-from django.views.generic import ListView, DetailView
-from .models import *
 from django.db.models import F
+from django.views.generic import ListView, DetailView
+
+from .models import *
 
 
 class Home(ListView):
